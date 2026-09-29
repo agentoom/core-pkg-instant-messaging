@@ -1,0 +1,26 @@
+{
+    "name": "agentoom/core-instant-messaging",
+    "description": "Instant Messaging package for Agentoom",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Agentoom\\InstantMessaging\\": "src/",
+            "Database\\Factories\\": "database/factories/",
+            "Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "require": {
+        "php": "^8.2",
+        "agentoom/core-main": "*@dev",
+        "laravel/framework": "^13.0",
+        "laravel/ai": "^0.7.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Agentoom\\InstantMessaging\\InstantMessagingServiceProvider"
+            ]
+        }
+    }
+}
