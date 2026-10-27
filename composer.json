@@ -1,5 +1,6 @@
 {
     "name": "agentoom/core-instant-messaging",
+    "version": "0.8.0",
     "description": "Instant Messaging package for Agentoom",
     "type": "library",
     "license": "MIT",
